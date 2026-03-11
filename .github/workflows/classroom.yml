@@ -19,7 +19,7 @@ jobs:
       with:
         test-name: compile
         setup-command: ''
-        command: g++ -std=c++17 -Wall -Wextra -O2 -o lab09 lab09-main.cpp
+        command: g++ -std=c++17 -Wall -Wextra -O2 -o lab09-main.cpp
         timeout: 10
         max-score: 10
     - name: run
